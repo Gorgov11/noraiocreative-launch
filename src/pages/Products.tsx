@@ -5,8 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, FileText, Gamepad2, Blocks, Globe, Shield, Smartphone } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Products = () => {
+  const { t } = useTranslation();
   const products = [
     {
       icon: FileText,
@@ -60,11 +62,10 @@ const Products = () => {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-              Our <span className="bg-gradient-primary bg-clip-text text-transparent">Products</span>
+              {t('products.title')} <span className="bg-gradient-primary bg-clip-text text-transparent">{t('products.subtitle')}</span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Innovative AI-powered products designed to streamline your business operations 
-              and unlock new possibilities for growth and efficiency.
+              {t('products.description')}
             </p>
           </div>
         </div>
@@ -131,10 +132,10 @@ const Products = () => {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Why Choose Our Products?
+              {t('products.whyChoose')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Built with cutting-edge AI technology and designed for scalability, security, and ease of use.
+              {t('products.whyChooseDesc')}
             </p>
           </div>
           
@@ -176,17 +177,17 @@ const Products = () => {
       <section className="py-20">
         <div className="container mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Ready to Get Started?
+            {t('products.readyToStart')}
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Explore our products in detail or contact us to discuss custom implementations for your business needs.
+            {t('products.ctaDescription')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              📞 Request Demo
+              📞 {t('page.requestDemo')}
             </Button>
             <Button size="lg" variant="outline">
-              💬 Talk to Sales
+              💬 {t('page.talkToSales')}
             </Button>
           </div>
         </div>

@@ -123,7 +123,7 @@ const Footer = () => {
         {/* Bottom footer */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/60 text-sm">
-            © 2024 NorAiO. All rights reserved.
+            © 2025 NorAiO AS All rights reserved - Oslo
           </p>
           <p className="text-white/60 text-sm mt-4 md:mt-0">
             Built with AI-first technology

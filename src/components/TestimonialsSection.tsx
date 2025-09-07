@@ -1,6 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import MaterialIcon from "@/components/MaterialIcon";
+import { useTranslation } from '@/contexts/TranslationContext';
 const TestimonialsSection = () => {
+  const { t } = useTranslation();
   const testimonials = [{
     name: "Sarah Chen",
     role: "CFO",
@@ -27,13 +29,13 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Trusted by Business Leaders
+            {t('testimonials.title')}
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              Worldwide
+              {t('testimonials.subtitle')}
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            See how industry leaders are transforming their business operations with AI & automation through NorAiO.
+            {t('testimonials.description')}
           </p>
         </div>
 

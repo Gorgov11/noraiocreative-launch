@@ -346,6 +346,468 @@ const translations: Translations = {
     da: 'Oppetid SLA',
     fi: 'Käytettävyys SLA',
     ar: 'اتفاقية مستوى الخدمة'
+  },
+
+  // Features Section
+  'features.title': {
+    en: 'Powerful Features for',
+    no: 'Kraftige funksjoner for',
+    sv: 'Kraftfulla funktioner för',
+    da: 'Kraftfulde funktioner til',
+    fi: 'Tehokkaat ominaisuudet',
+    ar: 'ميزات قوية لـ'
+  },
+  'features.subtitle': {
+    en: 'AI & Automation',
+    no: 'AI & Automatisering',
+    sv: 'AI & Automatisering',
+    da: 'AI & Automatisering',
+    fi: 'AI & Automaatio',
+    ar: 'الذكاء الاصطناعي والأتمتة'
+  },
+  'features.description': {
+    en: 'Discover the comprehensive suite of features designed to revolutionize your business operations.',
+    no: 'Oppdag den omfattende funksjonspakken designet for å revolusjonere dine forretningsoperasjoner.',
+    sv: 'Upptäck den omfattande funktionspaketen designad för att revolutionera dina affärsoperationer.',
+    da: 'Opdag den omfattende funktionspakke designet til at revolutionere dine forretningsoperationer.',
+    fi: 'Tutustu kattavaan ominaisuuspakettiin, joka on suunniteltu mullistamaan yritystoimintasi.',
+    ar: 'اكتشف مجموعة الميزات الشاملة المصممة لإحداث ثورة في عمليات عملك.'
+  },
+
+  // Testimonials Section
+  'testimonials.title': {
+    en: 'Trusted by Business Leaders',
+    no: 'Stolt av forretningsledere',
+    sv: 'Förtroende av företagsledare',
+    da: 'Stolt af forretningsledere',
+    fi: 'Liiketoiminnan johtajien luottamus',
+    ar: 'موثوق من قادة الأعمال'
+  },
+  'testimonials.subtitle': {
+    en: 'Worldwide',
+    no: 'Verden over',
+    sv: 'Världen över',
+    da: 'Verden over',
+    fi: 'Maailmanlaajuisesti',
+    ar: 'عالمياً'
+  },
+  'testimonials.description': {
+    en: 'See how industry leaders are transforming their business operations with AI & automation through NorAiO.',
+    no: 'Se hvordan bransjeledere transformerer sine forretningsoperasjoner med AI & automatisering gjennom NorAiO.',
+    sv: 'Se hur branschledare transformerar sina affärsoperationer med AI & automatisering genom NorAiO.',
+    da: 'Se hvordan brancheledere transformerer deres forretningsoperationer med AI & automatisering gennem NorAiO.',
+    fi: 'Katso kuinka toimialan johtajat muuttavat yritystoimintaansa AI:lla ja automaatiolla NorAiO:n kautta.',
+    ar: 'شاهد كيف يغير قادة الصناعة عمليات أعمالهم بالذكاء الاصطناعي والأتمتة من خلال NorAiO.'
+  },
+
+  // Common page elements
+  'page.learnMore': {
+    en: 'Learn More',
+    no: 'Lær mer',
+    sv: 'Läs mer',
+    da: 'Lær mere',
+    fi: 'Lue lisää',
+    ar: 'اعرف المزيد'
+  },
+  'page.readMore': {
+    en: 'Read More',
+    no: 'Les mer',
+    sv: 'Läs mer',
+    da: 'Læs mere',
+    fi: 'Lue lisää',
+    ar: 'اقرأ المزيد'
+  },
+  'page.bookConsultation': {
+    en: 'Book a Consultation',
+    no: 'Bestill konsultasjon',
+    sv: 'Boka konsultation',
+    da: 'Book en konsultation',
+    fi: 'Varaa konsultaatio',
+    ar: 'احجز استشارة'
+  },
+  'page.startConversation': {
+    en: 'Start a Conversation',
+    no: 'Start en samtale',
+    sv: 'Starta en konversation',
+    da: 'Start en samtale',
+    fi: 'Aloita keskustelu',
+    ar: 'ابدأ محادثة'
+  },
+  'page.requestDemo': {
+    en: 'Request Demo',
+    no: 'Be om demo',
+    sv: 'Begär demo',
+    da: 'Anmod om demo',
+    fi: 'Pyydä demo',
+    ar: 'اطلب عرضاً توضيحياً'
+  },
+  'page.talkToSales': {
+    en: 'Talk to Sales',
+    no: 'Snakk med salg',
+    sv: 'Prata med försäljning',
+    da: 'Snak med salg',
+    fi: 'Puhu myynnille',
+    ar: 'تحدث مع المبيعات'
+  },
+
+  // About Page
+  'about.title': {
+    en: 'About',
+    no: 'Om oss',
+    sv: 'Om oss',
+    da: 'Om os',
+    fi: 'Tietoa meistä',
+    ar: 'حول'
+  },
+  'about.subtitle': {
+    en: 'Where Nordic innovation meets artificial intelligence to transform businesses worldwide.',
+    no: 'Hvor nordisk innovasjon møter kunstig intelligens for å transformere bedrifter verden over.',
+    sv: 'Där nordisk innovation möter artificiell intelligens för att transformera företag världen över.',
+    da: 'Hvor nordisk innovation møder kunstig intelligens for at transformere virksomheder verden over.',
+    fi: 'Missä pohjoismainen innovaatio kohtaa tekoälyn muuttaakseen yrityksiä maailmanlaajuisesti.',
+    ar: 'حيث تلتقي الابتكارات الشمالية بالذكاء الاصطناعي لتحويل الشركات عالمياً.'
+  },
+  'about.ourStory': {
+    en: 'Our Story',
+    no: 'Vår historie',
+    sv: 'Vår historia',
+    da: 'Vores historie',
+    fi: 'Tarinamme',
+    ar: 'قصتنا'
+  },
+  'about.storyText': {
+    en: 'NorAiO was born from the idea that Nordic innovation and AI technology can transform industries worldwide. With expertise spanning 15+ years, we blend deep technical knowledge with business strategy to deliver solutions that drive real impact.',
+    no: 'NorAiO ble født fra ideen om at nordisk innovasjon og AI-teknologi kan transformere bransjer verden over. Med ekspertise som spenner over 15+ år, blander vi dyp teknisk kunnskap med forretningsstrategi for å levere løsninger som skaper reell påvirkning.',
+    sv: 'NorAiO föddes från idén att nordisk innovation och AI-teknologi kan transformera branscher världen över. Med expertis som sträcker sig över 15+ år blandar vi djup teknisk kunskap med affärsstrategi för att leverera lösningar som driver verklig påverkan.',
+    da: 'NorAiO blev født fra ideen om, at nordisk innovation og AI-teknologi kan transformere brancher verden over. Med ekspertise, der spænder over 15+ år, blander vi dyb teknisk viden med forretningsstrategi for at levere løsninger, der driver reel indvirkning.',
+    fi: 'NorAiO syntyi ajatuksesta, että pohjoismainen innovaatio ja AI-teknologia voivat muuttaa toimialoja maailmanlaajuisesti. Yli 15 vuoden asiantuntemuksella yhdistämme syvää teknistä tietoa liiketoimintastrategiaan tuottaaksemme ratkaisuja, jotka tuottavat todellista vaikutusta.',
+    ar: 'ولدت NorAiO من فكرة أن الابتكارات الشمالية وتكنولوجيا الذكاء الاصطناعي يمكنها تحويل الصناعات عالمياً. بخبرة تمتد لأكثر من 15 عاماً، ندمج المعرفة التقنية العميقة مع استراتيجية الأعمال لتقديم حلول تحقق تأثيراً حقيقياً.'
+  },
+  'about.mission': {
+    en: 'Mission',
+    no: 'Mål',
+    sv: 'Uppdrag',
+    da: 'Mission',
+    fi: 'Tehtävä',
+    ar: 'المهمة'
+  },
+  'about.missionText': {
+    en: 'To empower organizations to scale with AI-driven efficiency, automation, and creativity.',
+    no: 'Å gi organisasjoner mulighet til å skalere med AI-drevet effektivitet, automatisering og kreativitet.',
+    sv: 'Att ge organisationer möjlighet att skala med AI-driven effektivitet, automatisering och kreativitet.',
+    da: 'At give organisationer mulighed for at skalere med AI-drevet effektivitet, automatisering og kreativitet.',
+    fi: 'Antaa organisaatioille mahdollisuus skaalata AI-vetoisella tehokkuudella, automaatiolla ja luovuudella.',
+    ar: 'تمكين المنظمات من التوسع بالكفاءة وال automatization والإبداع المدعوم بالذكاء الاصطناعي.'
+  },
+  'about.vision': {
+    en: 'Vision',
+    no: 'Visjon',
+    sv: 'Vision',
+    da: 'Vision',
+    fi: 'Visio',
+    ar: 'الرؤية'
+  },
+  'about.visionText': {
+    en: 'A world where human creativity and artificial intelligence unite to build smarter businesses and better futures.',
+    no: 'En verden der menneskelig kreativitet og kunstig intelligens forenes for å bygge smartere bedrifter og bedre fremtider.',
+    sv: 'En värld där mänsklig kreativitet och artificiell intelligens förenas för att bygga smartare företag och bättre framtider.',
+    da: 'En verden, hvor menneskelig kreativitet og kunstig intelligens forenes for at bygge klogere virksomheder og bedre fremtider.',
+    fi: 'Maailma, jossa ihmisen luovuus ja tekoäly yhdistyvät rakentamaan älykkäämpiä yrityksiä ja parempia tulevaisuuksia.',
+    ar: 'عالم حيث تتحد الإبداع البشري والذكاء الاصطناعي لبناء أعمال أكثر ذكاءً ومستقبل أفضل.'
+  },
+  'about.leadership': {
+    en: 'Leadership',
+    no: 'Ledelse',
+    sv: 'Ledning',
+    da: 'Ledelse',
+    fi: 'Johto',
+    ar: 'القيادة'
+  },
+  'about.partners': {
+    en: 'Partners & Collaborations',
+    no: 'Partnere og samarbeid',
+    sv: 'Partners och samarbeten',
+    da: 'Partnere og samarbejder',
+    fi: 'Kumppanit ja yhteistyö',
+    ar: 'الشركاء والتعاون'
+  },
+  'about.partnersText': {
+    en: 'Trusted by businesses across Norway, Scandinavia, and the Middle East. Supported by innovation funds and government-backed digital transformation initiatives.',
+    no: 'Stolt av bedrifter over hele Norge, Skandinavia og Midtøsten. Støttet av innovasjonsfond og statlig støttede digitale transformasjonsinitiativer.',
+    sv: 'Förtroende av företag över hela Norge, Skandinavien och Mellanöstern. Stöds av innovationsfonder och statligt stödda digitala transformationsinitiativ.',
+    da: 'Stolt af virksomheder over hele Norge, Skandinavien og Mellemøsten. Støttet af innovationsfonde og statsstøttede digitale transformationsinitiativer.',
+    fi: 'Luottamus yrityksiä ympäri Norjaa, Skandinaviaa ja Lähi-itää. Tuettu innovaatiorahoituksella ja valtion tukemilla digitaalisen muutoksen aloitteilla.',
+    ar: 'موثوق من الشركات عبر النرويج والدول الاسكندنافية والشرق الأوسط. مدعوم من صناديق الابتكار ومبادرات التحول الرقمي المدعومة حكومياً.'
+  },
+
+  // Solutions Page
+  'solutions.title': {
+    en: 'Comprehensive',
+    no: 'Omfattende',
+    sv: 'Omfattande',
+    da: 'Omfattende',
+    fi: 'Kattava',
+    ar: 'شامل'
+  },
+  'solutions.subtitle': {
+    en: 'Solutions',
+    no: 'Løsninger',
+    sv: 'Lösningar',
+    da: 'Løsninger',
+    fi: 'Ratkaisut',
+    ar: 'الحلول'
+  },
+  'solutions.description': {
+    en: 'NorAiO delivers end-to-end solutions tailored to industries and business needs. Transform your operations with our AI-powered expertise.',
+    no: 'NorAiO leverer ende-til-ende løsninger tilpasset bransjer og forretningsbehov. Transformer dine operasjoner med vår AI-drevne ekspertise.',
+    sv: 'NorAiO leverer ende-till-ende lösningar anpassade för branscher och affärsbehov. Transformera dina operationer med vår AI-drivna expertis.',
+    da: 'NorAiO leverer ende-til-ende løsninger tilpasset brancher og forretningsbehov. Transformer dine operationer med vores AI-drevne ekspertise.',
+    fi: 'NorAiO tarjoaa kattavia ratkaisuja, jotka on räätälöity toimialoille ja liiketoimintatarpeille. Muuta toimintasi AI-vetoisella asiantuntemuksellamme.',
+    ar: 'NorAiO تقدم حلولاً شاملة مصممة خصيصاً للصناعات واحتياجات الأعمال. حول عملياتك بخبرتنا المدعومة بالذكاء الاصطناعي.'
+  },
+  'solutions.readyToTransform': {
+    en: 'Ready to Transform Your Business?',
+    no: 'Klar til å transformere bedriften din?',
+    sv: 'Redo att transformera ditt företag?',
+    da: 'Klar til at transformere din virksomhed?',
+    fi: 'Valmis muuttamaan yrityksesi?',
+    ar: 'مستعد لتحويل عملك؟'
+  },
+  'solutions.ctaDescription': {
+    en: "Let's discuss how our solutions can be tailored to your specific needs and industry requirements.",
+    no: 'La oss diskutere hvordan våre løsninger kan tilpasses dine spesifikke behov og bransjekrav.',
+    sv: 'Låt oss diskutera hur våra lösningar kan anpassas till dina specifika behov och branschkrav.',
+    da: 'Lad os diskutere, hvordan vores løsninger kan tilpasses dine specifikke behov og branchekrav.',
+    fi: 'Keskustellaan siitä, kuinka ratkaisumme voidaan räätälöidä tarpeisiisi ja toimialavaatimuksiin.',
+    ar: 'دعنا نناقش كيف يمكن تخصيص حلولنا لاحتياجاتك ومتطلبات صناعتك المحددة.'
+  },
+
+  // Products Page
+  'products.title': {
+    en: 'Our',
+    no: 'Våre',
+    sv: 'Våra',
+    da: 'Vores',
+    fi: 'Meidän',
+    ar: 'منتجاتنا'
+  },
+  'products.subtitle': {
+    en: 'Products',
+    no: 'Produkter',
+    sv: 'Produkter',
+    da: 'Produkter',
+    fi: 'Tuotteet',
+    ar: 'المنتجات'
+  },
+  'products.description': {
+    en: 'Innovative AI-powered products designed to streamline your business operations and unlock new possibilities for growth and efficiency.',
+    no: 'Innovative AI-drevne produkter designet for å strømlinjeforme dine forretningsoperasjoner og låse opp nye muligheter for vekst og effektivitet.',
+    sv: 'Innovativa AI-drivna produkter designade för att effektivisera dina affärsoperationer och låsa upp nya möjligheter för tillväxt och effektivitet.',
+    da: 'Innovative AI-drevne produkter designet til at strømlinjeforme dine forretningsoperationer og låse op nye muligheder for vækst og effektivitet.',
+    fi: 'Innovatiiviset AI-vetoiset tuotteet, jotka on suunniteltu virtaviivaistamaan yritystoimintasi ja avaamaan uusia mahdollisuuksia kasvuun ja tehokkuuteen.',
+    ar: 'منتجات مبتكرة مدعومة بالذكاء الاصطناعي مصممة لتبسيط عمليات عملك وإطلاق إمكانيات جديدة للنمو والكفاءة.'
+  },
+  'products.whyChoose': {
+    en: 'Why Choose Our Products?',
+    no: 'Hvorfor velge våre produkter?',
+    sv: 'Varför välja våra produkter?',
+    da: 'Hvorfor vælge vores produkter?',
+    fi: 'Miksi valita tuotteemme?',
+    ar: 'لماذا تختار منتجاتنا؟'
+  },
+  'products.whyChooseDesc': {
+    en: 'Built with cutting-edge AI technology and designed for scalability, security, and ease of use.',
+    no: 'Bygget med banebrytende AI-teknologi og designet for skalerbarhet, sikkerhet og brukervennlighet.',
+    sv: 'Byggd med banbrytande AI-teknologi och designad för skalbarhet, säkerhet och användarvänlighet.',
+    da: 'Bygget med banebrytende AI-teknologi og designet til skalbarhed, sikkerhed og brugervenlighed.',
+    fi: 'Rakennettu huipputeknologisella AI:lla ja suunniteltu skaalautuvuudelle, turvallisuudelle ja helppokäyttöisyydelle.',
+    ar: 'مبني بأحدث تقنيات الذكاء الاصطناعي ومصمم للقابلية للتوسع والأمان وسهولة الاستخدام.'
+  },
+  'products.readyToStart': {
+    en: 'Ready to Get Started?',
+    no: 'Klar til å komme i gang?',
+    sv: 'Redo att komma igång?',
+    da: 'Klar til at komme i gang?',
+    fi: 'Valmis aloittamaan?',
+    ar: 'مستعد للبدء؟'
+  },
+  'products.ctaDescription': {
+    en: 'Explore our products in detail or contact us to discuss custom implementations for your business needs.',
+    no: 'Utforsk våre produkter i detalj eller kontakt oss for å diskutere tilpassede implementeringer for dine forretningsbehov.',
+    sv: 'Utforska våra produkter i detalj eller kontakta oss för att diskutera anpassade implementeringar för dina affärsbehov.',
+    da: 'Udforsk vores produkter i detaljer eller kontakt os for at diskutere tilpassede implementeringer for dine forretningsbehov.',
+    fi: 'Tutustu tuotteisiimme yksityiskohtaisesti tai ota yhteyttä keskustellaksesi räätälöidyistä toteutuksista liiketoimintatarpeisiisi.',
+    ar: 'استكشف منتجاتنا بالتفصيل أو اتصل بنا لمناقشة التطبيقات المخصصة لاحتياجات عملك.'
+  },
+
+  // Resources Page
+  'resources.title': {
+    en: 'Knowledge',
+    no: 'Kunnskap',
+    sv: 'Kunskap',
+    da: 'Viden',
+    fi: 'Tieto',
+    ar: 'المعرفة'
+  },
+  'resources.subtitle': {
+    en: 'Resources',
+    no: 'Ressurser',
+    sv: 'Resurser',
+    da: 'Ressourcer',
+    fi: 'Resurssit',
+    ar: 'الموارد'
+  },
+  'resources.description': {
+    en: 'Explore our comprehensive library of insights, case studies, and expert guidance to accelerate your digital transformation journey.',
+    no: 'Utforsk vår omfattende bibliotek med innsikter, casestudier og ekspertråd for å akselerere din digitale transformasjonsreise.',
+    sv: 'Utforska vårt omfattande bibliotek med insikter, fallstudier och expertvägledning för att påskynda din digitala transformationsresa.',
+    da: 'Udforsk vores omfattende bibliotek med indsigter, casestudier og ekspertrådgivning for at accelerere din digitale transformationsrejse.',
+    fi: 'Tutustu kattavaan kirjastoomme oivalluksia, tapaustutkimuksia ja asiantuntijaohjeita nopeuttaaksesi digitaalisen muutoksen matkaasi.',
+    ar: 'استكشف مكتبتنا الشاملة من الرؤى ودراسات الحالة والإرشاد الخبير لتسريع رحلة التحول الرقمي الخاصة بك.'
+  },
+  'resources.featuredContent': {
+    en: 'Featured Content',
+    no: 'Fremhevet innhold',
+    sv: 'Utvalt innehåll',
+    da: 'Fremhævet indhold',
+    fi: 'Esittelyssä oleva sisältö',
+    ar: 'المحتوى المميز'
+  },
+  'resources.stayUpdated': {
+    en: 'Stay Updated',
+    no: 'Hold deg oppdatert',
+    sv: 'Håll dig uppdaterad',
+    da: 'Hold dig opdateret',
+    fi: 'Pysy ajan tasalla',
+    ar: 'ابق محدثاً'
+  },
+  'resources.newsletterDesc': {
+    en: 'Subscribe to our newsletter for the latest insights on AI, automation, and digital transformation.',
+    no: 'Abonner på vårt nyhetsbrev for de siste innsiktene om AI, automatisering og digital transformasjon.',
+    sv: 'Prenumerera på vårt nyhetsbrev för de senaste insikterna om AI, automatisering och digital transformation.',
+    da: 'Tilmeld dig vores nyhedsbrev for de seneste indsigter om AI, automatisering og digital transformation.',
+    fi: 'Tilaa uutiskirjeemme saadaksesi uusimmat oivallukset AI:sta, automaatiosta ja digitaalisesta muutoksesta.',
+    ar: 'اشترك في نشرتنا الإخبارية للحصول على أحدث الرؤى حول الذكاء الاصطناعي والأتمتة والتحول الرقمي.'
+  },
+  'resources.subscribe': {
+    en: 'Subscribe',
+    no: 'Abonner',
+    sv: 'Prenumerera',
+    da: 'Tilmeld',
+    fi: 'Tilaa',
+    ar: 'اشترك'
+  },
+
+  // Contact Page
+  'contact.title': {
+    en: 'Get In',
+    no: 'Ta kontakt',
+    sv: 'Ta kontakt',
+    da: 'Kom i kontakt',
+    fi: 'Ota yhteyttä',
+    ar: 'تواصل معنا'
+  },
+  'contact.subtitle': {
+    en: 'Touch',
+    no: 'med oss',
+    sv: 'med oss',
+    da: 'med os',
+    fi: 'meihin',
+    ar: 'معنا'
+  },
+  'contact.description': {
+    en: "Ready to transform your business with AI? Let's start the conversation. Our team is here to help you succeed.",
+    no: 'Klar til å transformere bedriften din med AI? La oss starte samtalen. Teamet vårt er her for å hjelpe deg å lykkes.',
+    sv: 'Redo att transformera ditt företag med AI? Låt oss starta konversationen. Vårt team är här för att hjälpa dig att lyckas.',
+    da: 'Klar til at transformere din virksomhed med AI? Lad os starte samtalen. Vores team er her for at hjælpe dig med at lykkes.',
+    fi: 'Valmis muuttamaan yrityksesi AI:lla? Aloitetaan keskustelu. Tiimimme on täällä auttamassa sinua menestymään.',
+    ar: 'مستعد لتحويل عملك بالذكاء الاصطناعي؟ دعنا نبدأ المحادثة. فريقنا هنا لمساعدتك على النجاح.'
+  },
+  'contact.sendMessage': {
+    en: 'Send Us a Message',
+    no: 'Send oss en melding',
+    sv: 'Skicka oss ett meddelande',
+    da: 'Send os en besked',
+    fi: 'Lähetä meille viesti',
+    ar: 'أرسل لنا رسالة'
+  },
+  'contact.ourLocations': {
+    en: 'Our Locations',
+    no: 'Våre lokasjoner',
+    sv: 'Våra platser',
+    da: 'Vores lokationer',
+    fi: 'Sijaintimme',
+    ar: 'مواقعنا'
+  },
+  'contact.readyToStart': {
+    en: 'Ready to Start?',
+    no: 'Klar til å starte?',
+    sv: 'Redo att börja?',
+    da: 'Klar til at starte?',
+    fi: 'Valmis aloittamaan?',
+    ar: 'مستعد للبدء؟'
+  },
+  'contact.ctaDescription': {
+    en: 'Choose the best way to connect with us based on your needs and timeline.',
+    no: 'Velg den beste måten å koble til oss basert på dine behov og tidslinje.',
+    sv: 'Välj det bästa sättet att ansluta till oss baserat på dina behov och tidslinje.',
+    da: 'Vælg den bedste måde at forbinde til os baseret på dine behov og tidslinje.',
+    fi: 'Valitse paras tapa ottaa yhteyttä meihin tarpeidesi ja aikataulun perusteella.',
+    ar: 'اختر أفضل طريقة للتواصل معنا بناءً على احتياجاتك والجدول الزمني.'
+  },
+
+  // FAQ Page
+  'faq.title': {
+    en: 'Frequently Asked',
+    no: 'Ofte stilte',
+    sv: 'Vanliga',
+    da: 'Ofte stillede',
+    fi: 'Usein kysytyt',
+    ar: 'الأسئلة الشائعة'
+  },
+  'faq.subtitle': {
+    en: 'Questions',
+    no: 'spørsmål',
+    sv: 'frågor',
+    da: 'spørgsmål',
+    fi: 'kysymykset',
+    ar: 'الأسئلة'
+  },
+
+  // Academy Page
+  'academy.title': {
+    en: 'AI Learning',
+    no: 'AI-læring',
+    sv: 'AI-lärande',
+    da: 'AI-læring',
+    fi: 'AI-oppiminen',
+    ar: 'تعلم الذكاء الاصطناعي'
+  },
+  'academy.subtitle': {
+    en: 'Academy',
+    no: 'Akademi',
+    sv: 'Akademi',
+    da: 'Akademi',
+    fi: 'Akatemia',
+    ar: 'الأكاديمية'
+  },
+
+  // AI Terminologies Page
+  'terminologies.title': {
+    en: 'AI',
+    no: 'AI',
+    sv: 'AI',
+    da: 'AI',
+    fi: 'AI',
+    ar: 'الذكاء الاصطناعي'
+  },
+  'terminologies.subtitle': {
+    en: 'Terminologies',
+    no: 'Terminologier',
+    sv: 'Terminologier',
+    da: 'Terminologier',
+    fi: 'Terminologiat',
+    ar: 'المصطلحات'
   }
 };
 

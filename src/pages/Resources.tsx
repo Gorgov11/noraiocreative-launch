@@ -5,8 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, BookOpen, FileText, Users, Calendar } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Resources = () => {
+  const { t } = useTranslation();
   const resourceCategories = [
     {
       icon: BookOpen,
@@ -76,11 +78,10 @@ const Resources = () => {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-              Knowledge <span className="bg-gradient-primary bg-clip-text text-transparent">Resources</span>
+              {t('resources.title')} <span className="bg-gradient-primary bg-clip-text text-transparent">{t('resources.subtitle')}</span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Explore our comprehensive library of insights, case studies, and expert guidance 
-              to accelerate your digital transformation journey.
+              {t('resources.description')}
             </p>
           </div>
         </div>
@@ -140,7 +141,7 @@ const Resources = () => {
           {/* Featured Content */}
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
-              Featured Content
+              {t('resources.featuredContent')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {featuredContent.map((content, index) => (
@@ -184,10 +185,10 @@ const Resources = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Stay Updated
+            {t('resources.stayUpdated')}
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Subscribe to our newsletter for the latest insights on AI, automation, and digital transformation.
+            {t('resources.newsletterDesc')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
             <input 
@@ -196,7 +197,7 @@ const Resources = () => {
               className="flex-1 px-4 py-3 rounded-md border border-border bg-background text-foreground"
             />
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
-              Subscribe
+              {t('resources.subscribe')}
             </Button>
           </div>
         </div>

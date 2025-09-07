@@ -2,10 +2,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import MaterialIcon from "@/components/MaterialIcon";
 import { useState } from "react";
 import useScrollAnimation from '@/hooks/use-scroll-animation';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const FeaturesSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
+  const { t } = useTranslation();
   
   const features = [
     {
@@ -45,14 +47,13 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className={`text-4xl lg:text-5xl font-bold text-foreground mb-4 transition-all duration-700 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Powerful Features for
+            {t('features.title')}
             <span className="block bg-gradient-primary bg-clip-text text-transparent animate-gradient-x">
-              AI & Automation
+              {t('features.subtitle')}
             </span>
           </h2>
           <p className={`text-xl text-muted-foreground max-w-3xl mx-auto transition-all duration-700 delay-200 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Everything you need to streamline business operations with AI automation, 
-            from process optimization to enterprise-grade security and compliance.
+            {t('features.description')}
           </p>
         </div>
 

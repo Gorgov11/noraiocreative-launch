@@ -5,8 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Mail, Clock, Briefcase, Users } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const contactMethods = [
     {
       icon: Mail,
@@ -61,11 +63,10 @@ const Contact = () => {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-              Get In <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
+              {t('contact.title')} <span className="bg-gradient-primary bg-clip-text text-transparent">{t('contact.subtitle')}</span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Ready to transform your business with AI? Let's start the conversation. 
-              Our team is here to help you succeed.
+              {t('contact.description')}
             </p>
           </div>
         </div>
@@ -116,7 +117,7 @@ const Contact = () => {
           <div className="max-w-2xl mx-auto">
             <Card className="border-border/50">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold text-center mb-8">Send Us a Message</h2>
+                <h2 className="text-2xl font-bold text-center mb-8">{t('contact.sendMessage')}</h2>
                 
                 <form className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
@@ -190,7 +191,7 @@ const Contact = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6 lg:px-8">
           <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">
-            Our Locations
+            {t('contact.ourLocations')}
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -238,17 +239,17 @@ const Contact = () => {
       <section className="py-20">
         <div className="container mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Ready to Start?
+            {t('contact.readyToStart')}
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Choose the best way to connect with us based on your needs and timeline.
+            {t('contact.ctaDescription')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-              📞 Book a Consultation
+              📞 {t('page.bookConsultation')}
             </Button>
             <Button size="lg" variant="outline">
-              💬 Start Live Chat
+              💬 {t('page.startConversation')}
             </Button>
           </div>
         </div>

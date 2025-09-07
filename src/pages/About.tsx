@@ -2,8 +2,10 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -13,10 +15,10 @@ const About = () => {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-              About <span className="bg-gradient-primary bg-clip-text text-transparent">NorAiO</span>
+              {t('about.title')} <span className="bg-gradient-primary bg-clip-text text-transparent">NorAiO</span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Where Nordic innovation meets artificial intelligence to transform businesses worldwide.
+              {t('about.subtitle')}
             </p>
           </div>
         </div>
@@ -26,12 +28,10 @@ const About = () => {
       <section className="py-16">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">Our Story</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">{t('about.ourStory')}</h2>
             <div className="prose prose-lg mx-auto text-muted-foreground">
               <p className="text-lg leading-relaxed">
-                NorAiO was born from the idea that Nordic innovation and AI technology can transform 
-                industries worldwide. With expertise spanning 15+ years, we blend deep technical 
-                knowledge with business strategy to deliver solutions that drive real impact.
+                {t('about.storyText')}
               </p>
             </div>
           </div>
@@ -44,19 +44,18 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <Card className="border-border/50">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Mission</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">{t('about.mission')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  To empower organizations to scale with AI-driven efficiency, automation, and creativity.
+                  {t('about.missionText')}
                 </p>
               </CardContent>
             </Card>
             
             <Card className="border-border/50">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Vision</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">{t('about.vision')}</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  A world where human creativity and artificial intelligence unite to build smarter 
-                  businesses and better futures.
+                  {t('about.visionText')}
                 </p>
               </CardContent>
             </Card>
@@ -67,7 +66,7 @@ const About = () => {
       {/* Leadership */}
       <section className="py-16">
         <div className="container mx-auto px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">Leadership</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-center mb-12">{t('about.leadership')}</h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="border-border/50">
               <CardContent className="p-8 text-center">
@@ -98,10 +97,9 @@ const About = () => {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-8">Partners & Collaborations</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-8">{t('about.partners')}</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Trusted by businesses across Norway, Scandinavia, and the Middle East. Supported by 
-              innovation funds and government-backed digital transformation initiatives.
+              {t('about.partnersText')}
             </p>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
