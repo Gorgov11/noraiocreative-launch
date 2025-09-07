@@ -95,9 +95,10 @@ const Footer = () => {
               </div>
               <button
                 onClick={handleCookieSettings}
-                className="text-white/70 hover:text-white transition-colors text-left text-sm"
+                className="flex items-center space-x-2 text-white/70 hover:text-white transition-colors text-left text-sm"
               >
-                Cookie Settings
+                <Shield size={16} />
+                <span>Cookie Settings</span>
               </button>
             </div>
           </div>
