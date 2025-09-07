@@ -199,65 +199,153 @@ const translations: Translations = {
     fi: 'Suuren mittakaavan projektiosaaminen',
     ar: 'خبرة المشاريع واسعة النطاق'
   },
-  'stats.desc.trustGlobally': { en: 'Trust NorAiO globally', ar: 'يثقون بـ NorAiO عالميًا' },
-  'stats.desc.inTransactions': { en: 'In financial transactions', ar: 'في المعاملات المالية' },
-  'stats.desc.inManual': { en: 'In manual processes', ar: 'في العمليات اليدوية' },
-  'stats.desc.reliability': { en: 'Enterprise reliability', ar: 'موثوقية مؤسسية' },
+  'stats.desc.trustGlobally': { 
+    en: 'Trust NorAiO globally', 
+    no: 'Stoler på NorAiO globalt',
+    sv: 'Litar på NorAiO globalt',
+    da: 'Stoler på NorAiO globalt',
+    fi: 'Luottaa NorAiO:hon maailmanlaajuisesti',
+    ar: 'يثقون بـ NorAiO عالميًا' 
+  },
+  'stats.desc.inTransactions': { 
+    en: 'In financial transactions', 
+    no: 'I finansielle transaksjoner',
+    sv: 'I finansiella transaktioner',
+    da: 'I finansielle transaktioner',
+    fi: 'Rahoitustapahtumissa',
+    ar: 'في المعاملات المالية' 
+  },
+  'stats.desc.inManual': { 
+    en: 'In manual processes', 
+    no: 'I manuelle prosesser',
+    sv: 'I manuella processer',
+    da: 'I manuelle processer',
+    fi: 'Manuaalisissa prosesseissa',
+    ar: 'في العمليات اليدوية' 
+  },
+  'stats.desc.reliability': { 
+    en: 'Enterprise reliability', 
+    no: 'Bedriftspålitelighet',
+    sv: 'Företagspålitlighet',
+    da: 'Virksomhedspålidelighed',
+    fi: 'Yrityksen luotettavuus',
+    ar: 'موثوقية مؤسسية' 
+  },
 
   // CTA Section
   'cta.title1': {
     en: 'Ready to Transform Your',
+    no: 'Klar til å transformere din',
+    sv: 'Redo att transformera din',
+    da: 'Klar til at transformere din',
+    fi: 'Valmis muuttamaan',
     ar: 'هل أنت مستعد لتحويل'
   },
   'cta.title2': {
     en: 'Business with AI?',
+    no: 'forretning med AI?',
+    sv: 'verksamhet med AI?',
+    da: 'virksomhed med AI?',
+    fi: 'yritystäsi tekoälyllä?',
     ar: 'عملك بالذكاء الاصطناعي؟'
   },
   'cta.subtitle': {
     en: 'Join thousands of companies using NorAiO to automate their business processes and unlock AI-driven insights.',
+    no: 'Bli med tusenvis av bedrifter som bruker NorAiO for å automatisere forretningsprosesser og låse opp AI-drevne innsikter.',
+    sv: 'Gå med tusentals företag som använder NorAiO för att automatisera sina affärsprocesser och låsa upp AI-drivna insikter.',
+    da: 'Tilslut dig tusindvis af virksomheder, der bruger NorAiO til at automatisere deres forretningsprocesser og frigøre AI-drevne indsigter.',
+    fi: 'Liity tuhansien yritysten joukkoon, jotka käyttävät NorAiO:ta liiketoimintaprosessien automatisointiin ja tekoälyvetoisen tiedon avaamiseen.',
     ar: 'انضم إلى آلاف الشركات التي تستخدم NorAiO لأتمتة عملياتها وفتح آفاق رؤى مدفوعة بالذكاء الاصطناعي.'
   },
   'cta.benefit.trial': {
     en: '14-day free trial',
+    no: '14-dagers gratis prøveperiode',
+    sv: '14-dagars gratis provperiod',
+    da: '14-dages gratis prøveperiode',
+    fi: '14 päivän ilmainen kokeilu',
     ar: 'تجربة مجانية لمدة 14 يومًا'
   },
   'cta.benefit.noCard': {
     en: 'No credit card required',
+    no: 'Ingen kredittkort påkrevd',
+    sv: 'Inget kreditkort krävs',
+    da: 'Intet kreditkort påkrævet',
+    fi: 'Korttia ei tarvita',
     ar: 'لا حاجة لبطاقة ائتمان'
   },
   'cta.benefit.setup': {
     en: 'Setup in under 5 minutes',
+    no: 'Oppsett på under 5 minutter',
+    sv: 'Installation på under 5 minuter',
+    da: 'Opsætning på under 5 minutter',
+    fi: 'Asennus alle 5 minuutissa',
     ar: 'إعداد في أقل من 5 دقائق'
   },
   'cta.benefit.support': {
     en: '24/7 expert support',
+    no: '24/7 ekspertsupport',
+    sv: '24/7 expertstöd',
+    da: '24/7 ekspertsupport',
+    fi: '24/7 asiantuntijatuki',
     ar: 'دعم خبراء 24/7'
   },
   'cta.startTrial': {
     en: 'Start Your Free Trial',
+    no: 'Start din gratis prøveperiode',
+    sv: 'Starta din gratis provperiod',
+    da: 'Start din gratis prøveperiode',
+    fi: 'Aloita ilmainen kokeilu',
     ar: 'ابدأ تجربتك المجانية'
   },
   'cta.scheduleDemo': {
     en: 'Schedule Demo',
+    no: 'Planlegg demo',
+    sv: 'Boka demo',
+    da: 'Planlæg demo',
+    fi: 'Varaa demo',
     ar: 'جدولة عرض'
   },
   'cta.questions': {
     en: 'Questions? Contact our sales team at',
+    no: 'Spørsmål? Kontakt vårt salgsteam på',
+    sv: 'Frågor? Kontakta vårt säljteam på',
+    da: 'Spørgsmål? Kontakt vores salgsteam på',
+    fi: 'Kysymyksiä? Ota yhteyttä myyntitiimiimme',
     ar: 'أسئلة؟ تواصل مع فريق المبيعات عبر'
   },
 
   // StatsSection (homepage stats)
   'stats.activeCompanies': {
-    en: 'Active Companies'
+    en: 'Active Companies',
+    no: 'Aktive bedrifter',
+    sv: 'Aktiva företag',
+    da: 'Aktive virksomheder',
+    fi: 'Aktiiviset yritykset',
+    ar: 'الشركات النشطة'
   },
   'stats.processedMonthly': {
-    en: 'Processed Monthly'
+    en: 'Processed Monthly',
+    no: 'Behandlet månedlig',
+    sv: 'Behandlat månadsvis',
+    da: 'Behandlet månedligt',
+    fi: 'Käsitelty kuukausittain',
+    ar: 'المعالجة الشهرية'
   },
   'stats.timeReduction': {
-    en: 'Time Reduction'
+    en: 'Time Reduction',
+    no: 'Tidsreduksjon',
+    sv: 'Tidsreduktion',
+    da: 'Tidsreduktion',
+    fi: 'Aikavähennys',
+    ar: 'تقليل الوقت'
   },
   'stats.uptimeSla': {
-    en: 'Uptime SLA'
+    en: 'Uptime SLA',
+    no: 'Oppetid SLA',
+    sv: 'Upptid SLA',
+    da: 'Oppetid SLA',
+    fi: 'Käytettävyys SLA',
+    ar: 'اتفاقية مستوى الخدمة'
   }
 };
 
